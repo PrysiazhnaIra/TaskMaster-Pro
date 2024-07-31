@@ -6,6 +6,8 @@ import Background from "./components/Background/Background";
 import Filter from "./components/Filter/Filter";
 import Form from "./components/Form/Form";
 import TaskList from "./components/TaskList/TaskList";
+import TaskCounter from "./components/TasksCounter/TasksCounter";
+import StatusFilter from "./components/StatusFilter/StatusFilter";
 
 function App() {
   // Ініціалізація tasks
@@ -57,10 +59,15 @@ function App() {
         onChangeColor={handleChangeColor}
       />
       <h1 className="title">Task Master</h1>
+      <TaskCounter />
+
       <Form onAdd={addTask} />
+
+      <StatusFilter />
+
       <Filter value={filter} onFilter={setFilter} />
       <TaskList tasks={filteredTasks} onDelete={deleteTask} />
-      <p className="footer">Vite + React project - IraPrysiazhna</p>
+      <p className="footer">Vite + React + Redux project - Ira Prysiazhna</p>
     </div>
   );
 }

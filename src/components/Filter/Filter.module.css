@@ -5,8 +5,7 @@ input {
     #8ca6db81 51%,
     #695acd6b 100%
   );
-  padding: 15px 25px;
-  text-transform: uppercase;
+  padding: 10px 25px;
   transition: 0.5s;
   color: black;
   box-shadow: 0 0 20px #eee;
@@ -15,7 +14,7 @@ input {
   width: 100%;
   border: none;
   margin-bottom: 20px;
-  padding-left: 40px;
+  padding-left: 15px;
   height: 40px;
   font-size: 16px;
 }
