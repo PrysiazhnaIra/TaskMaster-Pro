@@ -1,7 +1,7 @@
-// constants.js - файл для зберігання констант (наприклад значень фільтру статусу)
+// зберігання констант (наприклад значень фільтру статусу)
 
-export const statusFilters = Object.freeze({
+export const statusFilters = {
   all: "all",
   active: "active",
   completed: "completed",
-});
+};

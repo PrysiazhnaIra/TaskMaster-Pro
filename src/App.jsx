@@ -1,6 +1,6 @@
 import "./App.css";
 import "modern-normalize";
-import initialTasks from "./data/tasks.json";
+// import initialTasks from "./data/tasks.json";
 import { useEffect, useState } from "react";
 import Background from "./components/Background/Background";
 import Filter from "./components/Filter/Filter";

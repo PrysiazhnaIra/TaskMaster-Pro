@@ -1,4 +1,4 @@
-// selectors.js - файл оголошення функцій-селекторів
+// оголошення функцій-селекторів
 
 export const getTasks = (state) => state.tasks;
 

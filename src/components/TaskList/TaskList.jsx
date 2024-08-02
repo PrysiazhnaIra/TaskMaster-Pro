@@ -1,6 +1,7 @@
 import css from "./TaskList.module.css";
 import Task from "../Task/Task";
 import { useSelector } from "react-redux";
+import { getTasks, getStatusFilter } from "../../redux/selectors";
 import { statusFilters } from "../../redux/constants";
 
 const getVisibleTasks = (tasks, statusFilter) => {
@@ -15,14 +16,8 @@ const getVisibleTasks = (tasks, statusFilter) => {
 };
 
 export default function TaskList() {
-  // Отримуємо масив завдань із стану Redux
-  const tasks = useSelector((state) => state.tasks);
-
-  // Отримуємо значення фільтра із стану Redux
-  const statusFilter = useSelector((state) => state.filters.status);
-
-  // Обчислюємо масив завдань,
-  // які необхідно відображати в інтерфейсі
+  const tasks = useSelector(getTasks);
+  const statusFilter = useSelector(getStatusFilter);
   const visibleTasks = getVisibleTasks(tasks, statusFilter);
 
   return (

@@ -2,7 +2,7 @@ import css from "./Form.module.css";
 // Імпортуємо хук
 import { useDispatch } from "react-redux";
 // Імпортуємо генератор екшену
-import { addTask } from "../../redux/actions";
+import { addTask } from "../../redux/tasksSlice";
 
 export default function Form() {
   // Отримуємо посилання на функцію відправки екшенів
