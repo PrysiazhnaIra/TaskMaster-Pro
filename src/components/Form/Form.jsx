@@ -28,7 +28,7 @@ export default function Form() {
         placeholder="Please, enter your task text..."
       />
       <button type="submit" className={css.btn}>
-        Add task
+        Add
       </button>
     </form>
   );

@@ -7,7 +7,7 @@
 .btn {
   background-image: linear-gradient(to right, #11622fcb 51%, #5562dcd8 100%);
   margin: 10px;
-  padding: 10px 20px;
+  padding: 10px;
   text-align: center;
   transition: 0.5s;
   color: white;
@@ -18,14 +18,13 @@
   margin: 0 auto;
   font-family: "Courier New", monospace;
   font-weight: bold;
-  margin-bottom: 20px;
   width: 100px;
-  height: 50px;
+  height: 40px;
 }
 
 .btn:hover,
 .btn:focus {
   background-position: right center;
-  color: black;
+  color: rgba(0, 0, 0, 0.624);
   text-decoration: none;
 }
