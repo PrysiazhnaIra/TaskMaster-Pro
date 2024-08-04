@@ -1,14 +1,11 @@
 .form {
+  display: flex;
+  gap: 20px;
 }
 .field {
 }
 .btn {
-  background-image: linear-gradient(
-    to right,
-    #5ecd5ad1 0%,
-    #11622fcb 51%,
-    #5562dcd8 100%
-  );
+  background-image: linear-gradient(to right, #11622fcb 51%, #5562dcd8 100%);
   margin: 10px;
   padding: 10px 20px;
   text-align: center;
@@ -22,6 +19,8 @@
   font-family: "Courier New", monospace;
   font-weight: bold;
   margin-bottom: 20px;
+  width: 100px;
+  height: 50px;
 }
 
 .btn:hover,

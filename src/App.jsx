@@ -28,12 +28,9 @@ function App() {
         onChangeColor={handleChangeColor}
       />
       <h1 className="title">Task Master</h1>
-      <TaskCounter />
-
       <Form />
-
       <StatusFilter />
-
+      <TaskCounter />
       <Filter />
       <TaskList />
       <p className="footer">Vite + React + Redux project - Ira Prysiazhna</p>

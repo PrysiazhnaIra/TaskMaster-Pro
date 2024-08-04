@@ -1,14 +1,41 @@
-.btn {
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.text {
+  flex-grow: 1;
+  margin: 0 10px;
+  padding: 15px 25px;
   background-image: linear-gradient(
     to right,
-    #695acdd1 0%,
-    #d64545cb 51%,
-    #b993d6d8 100%
+    #b993d69f 0%,
+    #8ca6dbd7 51%,
+    #695acd88 100%
   );
-  margin: 10px;
+
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #d64545cb 51%, #b993d6d8 100%);
+  margin-left: 10px;
   padding: 10px 20px;
   text-align: center;
-  text-transform: uppercase;
   transition: 0.5s;
   color: white;
   box-shadow: 0 0 20px #eee;
@@ -18,31 +45,13 @@
   margin: 0 auto;
   font-family: "Courier New", monospace;
   font-weight: bold;
+  width: 100px;
+  height: 50px;
 }
 
 .btn:hover,
 .btn:focus {
   background-position: right center;
-  color: black;
+  color: rgba(0, 0, 0, 0.65);
   text-decoration: none;
-}
-
-.text {
-  background-image: linear-gradient(
-    to right,
-    #b993d6d6 0%,
-    #8ca6dbd7 51%,
-    #695acda4 100%
-  );
-  margin: 10px;
-  padding: 15px 25px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: rgb(41, 91, 49);
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-  font-weight: bold;
 }

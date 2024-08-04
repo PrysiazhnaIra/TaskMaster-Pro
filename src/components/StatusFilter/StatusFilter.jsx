@@ -19,7 +19,6 @@ export default function StatusFilter() {
 
   return (
     <div>
-      <h2>Filter by status</h2>
       <div className={css.wrapper}>
         <Button
           selected={filter === statusFilters.all}
@@ -37,7 +36,7 @@ export default function StatusFilter() {
           selected={filter === statusFilters.completed}
           onClick={() => handleFilterChange(statusFilters.completed)}
         >
-          Completed
+          Done
         </Button>
       </div>
     </div>
