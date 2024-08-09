@@ -16,9 +16,9 @@
   padding: 15px 25px;
   background-image: linear-gradient(
     to right,
-    #b993d69f 0%,
-    #8ca6dbd7 51%,
-    #695acd88 100%
+    #9d93d673 0%,
+    #8ca6dbb4 51%,
+    #695acd5f 100%
   );
 
   text-align: center;
@@ -31,27 +31,24 @@
   font-weight: bold;
 }
 
-.btn {
-  background-image: linear-gradient(to right, #d64545cb 51%, #b993d6d8 100%);
+.deleteBtn {
+  background-color: transparent;
   margin-left: 10px;
-  padding: 10px 20px;
   text-align: center;
-  transition: 0.5s;
-  color: white;
+  cursor: pointer;
   box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
   display: block;
   border: none;
   margin: 0 auto;
-  font-family: "Courier New", monospace;
-  font-weight: bold;
-  width: 100px;
-  height: 50px;
 }
 
-.btn:hover,
-.btn:focus {
-  background-position: right center;
-  color: rgba(0, 0, 0, 0.65);
-  text-decoration: none;
+.deleteBtn svg {
+  color: rgb(174, 24, 24);
+  width: 30px;
+  height: 30px;
+}
+
+.deleteBtn svg:hover,
+.deleteBtn svg:focus {
+  color: red;
 }

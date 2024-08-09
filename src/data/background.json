@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "color": "white"
+    "color": "AntiqueWhite"
   },
   {
     "id": 2,
-    "color": "lightblue"
+    "color": "Lavender"
   },
   {
     "id": 3,
-    "color": "LightSalmon"
+    "color": "DarkSalmon"
   },
   {
     "id": 4,
-    "color": "LightCoral"
+    "color": "LightGrey"
   },
   {
     "id": 5,
-    "color": "DarkCyan"
+    "color": "DarkSeaGreen"
   },
   {
     "id": 6,
@@ -25,10 +25,10 @@
   },
   {
     "id": 7,
-    "color": "DarkSeaGreen"
+    "color": "LightSkyBlue"
   },
   {
     "id": 8,
-    "color": "HotPink"
+    "color": "LightPink"
   }
 ]

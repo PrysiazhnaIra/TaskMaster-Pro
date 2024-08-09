@@ -1,4 +1,5 @@
 import css from "./Task.module.css";
+import { RiDeleteBin5Line } from "react-icons/ri";
 
 // Імпортуємо хук
 import { useDispatch } from "react-redux";
@@ -25,12 +26,12 @@ export default function Task({ task }) {
         type="checkbox"
         className={css.checkbox}
         onChange={handleToggle}
-        checked={task.completed}
+        checked={Boolean(task.completed)}
       />
       <p className={css.text}>{task.text}</p>
-      <button className={css.btn} onClick={handleDelete}>
+      <button className={css.deleteBtn} onClick={handleDelete}>
         {" "}
-        Delete
+        <RiDeleteBin5Line />
       </button>
     </div>
   );
